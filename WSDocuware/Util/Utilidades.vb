@@ -7,15 +7,15 @@ Public Class Utilidades
 
     'Sociedades
     Public Enum eSociedad
-        SOCIEDAD1 = 1
+        OFISTRADE = 1
     End Enum
 
     Public Shared ReadOnly Property NOMBRESOCIEDAD(ByVal Sociedad As eSociedad) As String
 
         Get
 
-            If Sociedad = eSociedad.SOCIEDAD1 Then
-                Return "SOCIEDAD1"
+            If Sociedad = eSociedad.OFISTRADE Then
+                Return "OFISTRADE"
             Else
                 Return ""
             End If
@@ -28,8 +28,8 @@ Public Class Utilidades
 
         Get
 
-            If NIF = "ESB59806794" Then
-                Return eSociedad.SOCIEDAD1
+            If NIF = "ESA58086216" Then
+                Return eSociedad.OFISTRADE
             Else
                 Throw New Exception("Sociedad por NIF no definida (" & NIF & ")")
             End If
