@@ -1,0 +1,23 @@
+'-------------------
+' TEST
+'-------------------
+
+NIFEmpresa --> ESB59806794
+
+Traslado
+{"DOCIDDW":1,"DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V1","NIFEmpresa":"ESB59806794","Opcion":"C","Ambito":"I","NIFTercero":"ES23456789F","RazonSocial":"Cliente 1","DocNum":"","DocDate":20221129,"AccountDate":20221129,"Ref2":"20221129A","Comments":"Prueba traslaso","Draft":"S","ObjTypeDestino":67,"TipoRefOrigen":"DocNum","AlmacenOrigen":"01","AlmacenDestino":"02","UserSAP":"","PassSAP":"","UserDW":"docuware","PassDW":"dw@2019","Lineas":[{"Articulo":"A00003","Concepto":"ARTICULO 03 LOTES","Proyecto":"","Cantidad":1.0,"Almacen":"01","Centro1Coste":"","Centro2Coste":"","Centro3Coste":"","Centro4Coste":"","Centro5Coste":"",Lotes:[{NumLote:'L20221129_1a',Cantidad:1.0}]}]}
+
+
+
+{"DOCIDDW":1,"DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V1","NIFEmpresa":"ESB59806794","Opcion":"C","Ambito":"I","NIFTercero":"ES23456789F","RazonSocial":"Cliente 1","DocNum":"","DocDate":20221129,"AccountDate":20221129,"Ref2":"20221129A","Comments":"Prueba traslaso","Draft":"S","ObjTypeDestino":67,"TipoRefOrigen":"DocNum","AlmacenOrigen":"01","AlmacenDestino":"02","UserSAP":"","PassSAP":"","UserDW":"docuware","PassDW":"dw@2019","Lineas":[{"Articulo":"A00001","Concepto":"ARTICULO 01","Proyecto":"","Cantidad":1.0,"PrecioUnidad":15.67,"Almacen":"01","Centro1Coste":"","Centro2Coste":"","Centro3Coste":"","Centro4Coste":"","Centro5Coste":""}]}
+
+
+
+Entrada mercancías
+{"DOCIDDW":1,"DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V1","NIFEmpresa":"ESB59806794","Opcion":"C","Ambito":"I","NIFTercero":"ES23456789F","RazonSocial":"Cliente 1","DocNum":"","DocDate":20221129,"AccountDate":20221129,"Ref2":"20221129A","Comments":"Prueba traslaso","Draft":"S","ObjTypeDestino":59,"TipoRefOrigen":"DocNum","AlmacenOrigen":"01","AlmacenDestino":"02","UserSAP":"","PassSAP":"","UserDW":"docuware","PassDW":"dw@2019","Lineas":[{"Articulo":"A00003","Concepto":"ARTICULO 03 LOTES","Proyecto":"","Cantidad":10.0,"Almacen":"01","Centro1Coste":"","Centro2Coste":"","Centro3Coste":"","Centro4Coste":"","Centro5Coste":"",Lotes:[{NumLote:'L20221129_1a',Cantidad:10.0}]}]}
+
+
+
+Salida mercancías
+{"DOCIDDW":1,"DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V1","NIFEmpresa":"ESB59806794","Opcion":"C","Ambito":"I","NIFTercero":"ES23456789F","RazonSocial":"Cliente 1","DocNum":"","DocDate":20221129,"AccountDate":20221129,"Ref2":"20221129A","Comments":"Prueba traslaso","Draft":"S","ObjTypeDestino":60,"TipoRefOrigen":"DocNum","AlmacenOrigen":"01","AlmacenDestino":"02","UserSAP":"","PassSAP":"","UserDW":"docuware","PassDW":"dw@2019","Lineas":[{"Articulo":"A00003","Concepto":"ARTICULO 03 LOTES","Proyecto":"","Cantidad":1.0,"Almacen":"01","Centro1Coste":"","Centro2Coste":"","Centro3Coste":"","Centro4Coste":"","Centro5Coste":"",Lotes:[{NumLote:'L20221129_1a',Cantidad:1.0}]}]}
+

@@ -1,0 +1,589 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{0896C70F-945A-4694-B2E8-F0FFA9EB50DD}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>WSDocuware</RootNamespace>
+    <AssemblyName>WSDocuware</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>WSDocuware.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>WSDocuware.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLLs\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.ClientDoc, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>DLLs\CrystalDecisions.ReportAppServer.ClientDoc.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLLs\CrystalDecisions.ReportSource.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLLs\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>DLLs\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>DLLs\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SAPBusinessOneSDK, Version=1.0.0.1, Culture=neutral, PublicKeyToken=c7c3cb60e45d119f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLLs\SAPBusinessOneSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DLLs\CrystalDecisions.CrystalReports.Engine.dll" />
+    <Content Include="DLLs\CrystalDecisions.ReportAppServer.ClientDoc.dll" />
+    <Content Include="DLLs\CrystalDecisions.ReportSource.dll" />
+    <Content Include="DLLs\CrystalDecisions.Shared.dll" />
+    <Content Include="DLLs\log4net.dll" />
+    <Content Include="DLLs\Newtonsoft.Json.dll" />
+    <Content Include="DLLs\SAPBusinessOneSDK.dll" />
+    <Content Include="JSON\Anexo.txt" />
+    <Content Include="JSON\Documentos.txt" />
+    <Content Include="JSON\Docuware.txt" />
+    <Content Include="JSON\Oportunidad.txt" />
+    <Content Include="JSON\BloqueoPago.txt" />
+    <Content Include="JSON\Datos.txt" />
+    <Content Include="JSON\Asientos.txt" />
+    <Content Include="JSON\Interlocutores.txt" />
+    <Content Include="JSON\Inventario.txt" />
+    <Content Include="JSON\Llamadas.txt" />
+    <Content Include="JSON\Actividades.txt" />
+    <Content Include="JSON\Articulos.txt" />
+    <Content Include="JSON\Lotes.txt" />
+    <Content Include="JSON\Acuerdos.txt" />
+    <Content Include="JSON\Ficheros.txt" />
+    <Content Include="VISTAS\HANA\ACTIVIDADES\SEI_VIEW_DW_ACTIVIDADES.sql" />
+    <Content Include="VISTAS\HANA\ACTIVOS FIJOS\SEI_VIEW_DW_ACTIVOS_FIJOS_AREAS_VALORACION.sql" />
+    <Content Include="VISTAS\HANA\ACTIVOS FIJOS\SEI_VIEW_DW_ACTIVOS_FIJOS_CLASES.sql" />
+    <Content Include="VISTAS\HANA\ACTIVOS FIJOS\SEI_VIEW_DW_ACTIVOS_FIJOS_EMPLAZAMIENTOS.sql" />
+    <Content Include="VISTAS\HANA\ACTIVOS FIJOS\SEI_VIEW_DW_ACTIVOS_FIJOS_GRUPOS.sql" />
+    <Content Include="VISTAS\HANA\ACTIVOS FIJOS\SEI_VIEW_DW_ACTIVOS_FIJOS_GRUPOS_AMORTIZACION.sql" />
+    <Content Include="VISTAS\HANA\DOCUMENTOS\SEI_VIEW_DW_PRECIOS_ENTREGA.sql" />
+    <Content Include="VISTAS\HANA\LLAMADAS SERVICIO\SEI_VIEW_DW_LLAMADAS_COLA.sql" />
+    <Content Include="VISTAS\HANA\LLAMADAS SERVICIO\SEI_VIEW_DW_LLAMADAS_SERVICIO.sql" />
+    <Content Include="VISTAS\PostTransactionNotification.sql" />
+    <Content Include="VISTAS\SQL\ACTIVIDADES\SEI_VIEW_DW_ACTIVIDADES.sql" />
+    <Content Include="VISTAS\SQL\ACTIVOS FIJOS\SEI_VIEW_DW_ACTIVOS_FIJOS_AREAS_VALORACION.sql" />
+    <Content Include="VISTAS\SQL\ACTIVOS FIJOS\SEI_VIEW_DW_ACTIVOS_FIJOS_EMPLAZAMIENTOS.sql" />
+    <Content Include="VISTAS\SQL\ACTIVOS FIJOS\SEI_VIEW_DW_ACTIVOS_FIJOS_GRUPOS_AMORTIZACION.sql" />
+    <Content Include="VISTAS\SQL\ACTIVOS FIJOS\SEI_VIEW_DW_ACTIVOS_FIJOS_GRUPOS.sql" />
+    <Content Include="VISTAS\SQL\ACTIVOS FIJOS\SEI_VIEW_DW_ACTIVOS_FIJOS_CLASES.sql" />
+    <Content Include="VISTAS\SQL\DOCUMENTOS\SEI_VIEW_DW_PRECIOS_ENTREGA.sql" />
+    <Content Include="VISTAS\SQL\LLAMADAS SERVICIO\SEI_VIEW_DW_LLAMADAS_SERVICIO.sql" />
+    <Content Include="VISTAS\SQL\LLAMADAS SERVICIO\SEI_VIEW_DW_LLAMADAS_COLA.sql" />
+    <Content Include="VISTAS\TransactionNotification.sql" />
+    <Content Include="VISTAS\HANA\ACTIVIDADES\SEI_VIEW_DW_ACTIVIDADES_ASUNTO.sql" />
+    <Content Include="VISTAS\HANA\ACTIVIDADES\SEI_VIEW_DW_ACTIVIDADES_EMPLAZAMIENTO.sql" />
+    <Content Include="VISTAS\HANA\ACTIVIDADES\SEI_VIEW_DW_ACTIVIDADES_TIPO.sql" />
+    <Content Include="VISTAS\HANA\ARTICULOS\SEI_VIEW_DW_ARTICULOS.sql" />
+    <Content Include="VISTAS\HANA\ARTICULOS\SEI_VIEW_DW_CLASES_EXPEDICION.sql" />
+    <Content Include="VISTAS\HANA\ARTICULOS\SEI_VIEW_DW_FABRICANTES.sql" />
+    <Content Include="VISTAS\HANA\ARTICULOS\SEI_VIEW_DW_GRUPOS_ARTICULO.sql" />
+    <Content Include="VISTAS\HANA\ARTICULOS\SEI_VIEW_DW_GRUPOS_UNIDAD_MEDIDA.sql" />
+    <Content Include="VISTAS\HANA\ASIENTOS\SEI_VIEW_DW_ASIENTOS_INDICADORES.sql" />
+    <Content Include="VISTAS\HANA\ASIENTOS\SEI_VIEW_DW_ASIENTOS_MODELOS.sql" />
+    <Content Include="VISTAS\HANA\ASIENTOS\SEI_VIEW_DW_ASIENTOS_OPERACIONES.sql" />
+    <Content Include="VISTAS\HANA\DOCUMENTOS\SEI_VIEW_DW_FACTURAS_ANTICIPO.sql" />
+    <Content Include="VISTAS\HANA\DOCUMENTOS\SEI_VIEW_DW_RELACIONES_DOCUMENTOS_COMPRA.sql" />
+    <Content Include="VISTAS\HANA\DOCUMENTOS\SEI_VIEW_DW_SOLICITUD_PEDIDOS_COMPRA_IP.sql" />
+    <Content Include="VISTAS\HANA\INTERLOCUTORES\SEI_VIEW_DW_GRUPOS_INTERLOCUTOR.sql" />
+    <Content Include="VISTAS\HANA\INTERLOCUTORES\SEI_VIEW_DW_INTERLOCUTORES_CONTACTOS.sql" />
+    <Content Include="VISTAS\HANA\INTERLOCUTORES\SEI_VIEW_DW_INTERLOCUTORES_DIRECCIONES.sql" />
+    <Content Include="VISTAS\HANA\SEI_VIEW_DW_NORMAS_REPARTO.sql" />
+    <Content Include="VISTAS\HANA\SEI_VIEW_DW_IDIOMAS.sql" />
+    <Content Include="VISTAS\HANA\SEI_VIEW_DW_CUENTAS_CONTABLES.sql" />
+    <Content Include="VISTAS\HANA\TARJETAS SERVICIO\SEI_VIEW_DW_TARJETAS_EQUIPOS.sql" />
+    <Content Include="VISTAS\HANA\LLAMADAS SERVICIO\SEI_VIEW_DW_LLAMADAS_ORIGEN.sql" />
+    <Content Include="VISTAS\HANA\LLAMADAS SERVICIO\SEI_VIEW_DW_LLAMADAS_PROBLEMA_SUBTIPO.sql" />
+    <Content Include="VISTAS\HANA\LLAMADAS SERVICIO\SEI_VIEW_DW_LLAMADAS_PROBLEMA_TIPO.sql" />
+    <Content Include="VISTAS\HANA\LLAMADAS SERVICIO\SEI_VIEW_DW_LLAMADAS_ESTADO.sql" />
+    <Content Include="VISTAS\HANA\LLAMADAS SERVICIO\SEI_VIEW_DW_LLAMADAS_TIPO.sql" />
+    <Content Include="VISTAS\HANA\SEI_VIEW_DW_ALMACENES.sql" />
+    <Content Include="VISTAS\HANA\SEI_VIEW_DW_BANCOS_PROPIOS.sql" />
+    <Content Include="VISTAS\HANA\SEI_VIEW_DW_CENTROS_COSTE.sql" />
+    <Content Include="VISTAS\HANA\SEI_VIEW_DW_CONDICIONES_PAGO.sql" />
+    <Content Include="VISTAS\HANA\SEI_VIEW_DW_EMPLEADOS.sql" />
+    <Content Include="VISTAS\HANA\SEI_VIEW_DW_EMPLEADOS_DPTO_CV.sql" />
+    <Content Include="VISTAS\HANA\SEI_VIEW_DW_GRUPOS_IMPOSITIVOS.sql" />
+    <Content Include="VISTAS\HANA\INTERLOCUTORES\SEI_VIEW_DW_INTERLOCUTORES.sql" />
+    <Content Include="VISTAS\HANA\INTERLOCUTORES\SEI_VIEW_DW_INTERLOCUTORES_BANCOS.sql" />
+    <Content Include="VISTAS\HANA\SEI_VIEW_DW_MONEDAS.sql" />
+    <Content Include="VISTAS\HANA\SEI_VIEW_DW_PORTES.sql" />
+    <Content Include="VISTAS\HANA\SEI_VIEW_DW_PROYECTOS.sql" />
+    <Content Include="VISTAS\HANA\SEI_VIEW_DW_RESPONSABLES.sql" />
+    <Content Include="VISTAS\HANA\SEI_VIEW_DW_SERIES.sql" />
+    <Content Include="VISTAS\HANA\SEI_VIEW_DW_SUCURSALES.sql" />
+    <Content Include="VISTAS\HANA\SEI_VIEW_DW_TARJETAS_BANCO.sql" />
+    <Content Include="VISTAS\HANA\SEI_VIEW_DW_TASAS_CAMBIO.sql" />
+    <Content Include="VISTAS\HANA\SEI_VIEW_DW_VALORES_VALIDOS.sql" />
+    <Content Include="VISTAS\HANA\SEI_VIEW_DW_VIAS_PAGO.sql" />
+    <Content Include="VISTAS\SQL\ACTIVIDADES\SEI_VIEW_DW_ACTIVIDADES_ASUNTO.sql" />
+    <Content Include="VISTAS\SQL\ACTIVIDADES\SEI_VIEW_DW_ACTIVIDADES_EMPLAZAMIENTO.sql" />
+    <Content Include="VISTAS\SQL\ACTIVIDADES\SEI_VIEW_DW_ACTIVIDADES_TIPO.sql" />
+    <Content Include="VISTAS\SQL\ASIENTOS\SEI_VIEW_DW_ASIENTOS_OPERACIONES.sql" />
+    <Content Include="VISTAS\SQL\ASIENTOS\SEI_VIEW_DW_ASIENTOS_INDICADORES.sql" />
+    <Content Include="VISTAS\SQL\ASIENTOS\SEI_VIEW_DW_ASIENTOS_MODELOS.sql" />
+    <Content Include="VISTAS\SQL\SEI_VIEW_DW_NORMAS_REPARTO.sql" />
+    <Content Include="VISTAS\SQL\SEI_VIEW_DW_IDIOMAS.sql" />
+    <Content Include="VISTAS\SQL\SEI_VIEW_DW_CUENTAS_CONTABLES.sql" />
+    <Content Include="VISTAS\SQL\TARJETAS SERVICIO\SEI_VIEW_DW_TARJETAS_EQUIPOS.sql" />
+    <Content Include="VISTAS\SQL\DOCUMENTOS\SEI_VIEW_DW_FACTURAS_ANTICIPO.sql" />
+    <Content Include="VISTAS\SQL\INTERLOCUTORES\SEI_VIEW_DW_GRUPOS_INTERLOCUTOR.sql" />
+    <Content Include="VISTAS\SQL\INTERLOCUTORES\SEI_VIEW_DW_INTERLOCUTORES_CONTACTOS.sql" />
+    <Content Include="VISTAS\SQL\INTERLOCUTORES\SEI_VIEW_DW_INTERLOCUTORES_DIRECCIONES.sql" />
+    <Content Include="VISTAS\SQL\LLAMADAS SERVICIO\SEI_VIEW_DW_LLAMADAS_ESTADO.sql" />
+    <Content Include="VISTAS\SQL\LLAMADAS SERVICIO\SEI_VIEW_DW_LLAMADAS_TIPO.sql" />
+    <Content Include="VISTAS\SQL\LLAMADAS SERVICIO\SEI_VIEW_DW_LLAMADAS_PROBLEMA_SUBTIPO.sql" />
+    <Content Include="VISTAS\SQL\LLAMADAS SERVICIO\SEI_VIEW_DW_LLAMADAS_PROBLEMA_TIPO.sql" />
+    <Content Include="VISTAS\SQL\LLAMADAS SERVICIO\SEI_VIEW_DW_LLAMADAS_ORIGEN.sql" />
+    <Content Include="VISTAS\SQL\ARTICULOS\SEI_VIEW_DW_CLASES_EXPEDICION.sql" />
+    <Content Include="VISTAS\SQL\SEI_VIEW_DW_PORTES.sql" />
+    <Content Include="VISTAS\SQL\SEI_VIEW_DW_ALMACENES.sql" />
+    <Content Include="VISTAS\SQL\SEI_VIEW_DW_BANCOS_PROPIOS.sql" />
+    <Content Include="VISTAS\SQL\INTERLOCUTORES\SEI_VIEW_DW_INTERLOCUTORES_BANCOS.sql" />
+    <Content Include="VISTAS\SQL\SEI_VIEW_DW_RESPONSABLES.sql" />
+    <Content Include="VISTAS\SQL\SEI_VIEW_DW_EMPLEADOS_DPTO_CV.sql" />
+    <Content Include="VISTAS\SQL\SEI_VIEW_DW_GRUPOS_IMPOSITIVOS.sql" />
+    <Content Include="VISTAS\SQL\SEI_VIEW_DW_MONEDAS.sql" />
+    <Content Include="VISTAS\SQL\SEI_VIEW_DW_TASAS_CAMBIO.sql" />
+    <Content Include="VISTAS\SQL\SEI_VIEW_DW_CONDICIONES_PAGO.sql" />
+    <Content Include="VISTAS\SQL\SEI_VIEW_DW_VIAS_PAGO.sql" />
+    <Content Include="VISTAS\SQL\SEI_VIEW_DW_TARJETAS_BANCO.sql" />
+    <Content Include="VISTAS\SQL\SEI_VIEW_DW_VALORES_VALIDOS.sql" />
+    <Content Include="VISTAS\SQL\ARTICULOS\SEI_VIEW_DW_GRUPOS_UNIDAD_MEDIDA.sql" />
+    <Content Include="VISTAS\SQL\ARTICULOS\SEI_VIEW_DW_GRUPOS_ARTICULO.sql" />
+    <Content Include="VISTAS\SQL\ARTICULOS\SEI_VIEW_DW_FABRICANTES.sql" />
+    <Content Include="VISTAS\SQL\SEI_VIEW_DW_SERIES.sql" />
+    <Content Include="VISTAS\SQL\DOCUMENTOS\SEI_VIEW_DW_RELACIONES_DOCUMENTOS_COMPRA.sql" />
+    <Content Include="VISTAS\SQL\DOCUMENTOS\SEI_VIEW_DW_SOLICITUD_PEDIDOS_COMPRA_IP.sql" />
+    <Content Include="VISTAS\SQL\INTERLOCUTORES\SEI_VIEW_DW_INTERLOCUTORES.sql" />
+    <Content Include="VISTAS\SQL\SEI_VIEW_DW_PROYECTOS.sql" />
+    <Content Include="VISTAS\SQL\SEI_VIEW_DW_EMPLEADOS.sql" />
+    <Content Include="VISTAS\SQL\SEI_VIEW_DW_CENTROS_COSTE.sql" />
+    <Content Include="VISTAS\SQL\ARTICULOS\SEI_VIEW_DW_ARTICULOS.sql" />
+    <Content Include="VISTAS\SQL\SEI_VIEW_DW_SUCURSALES.sql" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WSDocuware.asmx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases\clsActividad.vb" />
+    <Compile Include="Clases\clsAsiento.vb" />
+    <Compile Include="Clases\clsAnexo.vb" />
+    <Compile Include="Clases\clsFichero.vb" />
+    <Compile Include="Clases\clsDocuware.vb" />
+    <Compile Include="Clases\clsInterlocutor.vb" />
+    <Compile Include="Clases\clsInventario.vb" />
+    <Compile Include="Clases\clsLote.vb" />
+    <Compile Include="Clases\clsArticulo.vb" />
+    <Compile Include="Clases\clsInforme.vb" />
+    <Compile Include="Clases\clsAcuerdo.vb" />
+    <Compile Include="Clases\clsComun.vb" />
+    <Compile Include="Clases\clsLLamadaServicio.vb" />
+    <Compile Include="Clases\clsDocumento.vb" />
+    <Compile Include="Clases\clsLog.vb" />
+    <Compile Include="Clases\clsOportunidad.vb" />
+    <Compile Include="Clases\clsProyecto.vb" />
+    <Compile Include="Clases\Conexion\clsConexion.vb" />
+    <Compile Include="Clases\Conexion\ConexionSAP.vb" />
+    <Compile Include="Clases\DAOs\DAOActivoFijoAreaValoracion.vb" />
+    <Compile Include="Clases\DAOs\DAOActivoFijoEmplazamiento.vb" />
+    <Compile Include="Clases\DAOs\DAOActivoFijoGrupoAmortizacion.vb" />
+    <Compile Include="Clases\DAOs\DAOActivoFijoGrupo.vb" />
+    <Compile Include="Clases\DAOs\DAOActivoFijoClase.vb" />
+    <Compile Include="Clases\DAOs\DAONormaReparto.vb" />
+    <Compile Include="Clases\DAOs\DAOCuentaContable.vb" />
+    <Compile Include="Clases\DAOs\DAOAsiento.vb" />
+    <Compile Include="Clases\DAOs\DAOAcuerdo.vb" />
+    <Compile Include="Clases\DAOs\DAOIdioma.vb" />
+    <Compile Include="Clases\DAOs\DAOPrecioEntrega.vb" />
+    <Compile Include="Clases\DAOs\DAOTarjetaEquipo.vb" />
+    <Compile Include="Clases\DAOs\DAOFacturaAnticipo.vb" />
+    <Compile Include="Clases\DAOs\DAOInterlocutorContacto.vb" />
+    <Compile Include="Clases\DAOs\DAOInterlocutorDireccion.vb" />
+    <Compile Include="Clases\DAOs\DAOPorte.vb" />
+    <Compile Include="Clases\DAOs\DAOAlmacen.vb" />
+    <Compile Include="Clases\DAOs\DAOCondicionPago.vb" />
+    <Compile Include="Clases\DAOs\DAOEmpleadoDptoCV.vb" />
+    <Compile Include="Clases\DAOs\DAOInterlocutorBanco.vb" />
+    <Compile Include="Clases\DAOs\DAOResponsable.vb" />
+    <Compile Include="Clases\DAOs\DAORic.vb" />
+    <Compile Include="Clases\DAOs\DAOGrupoInterlocutor.vb" />
+    <Compile Include="Clases\DAOs\DAOLlamadaServicio.vb" />
+    <Compile Include="Clases\DAOs\DAODocumento.vb" />
+    <Compile Include="Clases\DAOs\DAOCarta.vb" />
+    <Compile Include="Clases\DAOs\DAOActividad.vb" />
+    <Compile Include="Clases\DAOs\DAOGrupoImpositivo.vb" />
+    <Compile Include="Clases\DAOs\DAOInterlocutor.vb" />
+    <Compile Include="Clases\DAOs\DAOGrupoArticulo.vb" />
+    <Compile Include="Clases\DAOs\DAOClaseExpedicion.vb" />
+    <Compile Include="Clases\DAOs\DAOFabricante.vb" />
+    <Compile Include="Clases\DAOs\DAOGrupoUnidadMedida.vb" />
+    <Compile Include="Clases\DAOs\DAOMoneda.vb" />
+    <Compile Include="Clases\DAOs\DAOBancoPropio.vb" />
+    <Compile Include="Clases\DAOs\DAOTasaCambio.vb" />
+    <Compile Include="Clases\DAOs\DAOViaPago.vb" />
+    <Compile Include="Clases\DAOs\DAOTarjetaBanco.vb" />
+    <Compile Include="Clases\DAOs\DAOValorTabla.vb" />
+    <Compile Include="Clases\DAOs\DAOValorValido.vb" />
+    <Compile Include="Clases\DAOs\DAOSerie.vb" />
+    <Compile Include="Clases\DAOs\DAOProyecto.vb" />
+    <Compile Include="Clases\DAOs\DAOEmpleado.vb" />
+    <Compile Include="Clases\DAOs\DAOCentroCoste.vb" />
+    <Compile Include="Clases\DAOs\DAOArticulo.vb" />
+    <Compile Include="Clases\DAOs\DAOSucursal.vb" />
+    <Compile Include="Clases\Entidades\EntActividad.vb" />
+    <Compile Include="Clases\Entidades\EntActivoFijoAreaValoracion.vb" />
+    <Compile Include="Clases\Entidades\EntActivoFijoEmplazamiento.vb" />
+    <Compile Include="Clases\Entidades\EntActivoFijoGrupoAmortizacion.vb" />
+    <Compile Include="Clases\Entidades\EntActivoFijoGrupo.vb" />
+    <Compile Include="Clases\Entidades\EntAcuerdo.vb" />
+    <Compile Include="Clases\Entidades\EntAcuerdoEstado.vb" />
+    <Compile Include="Clases\Entidades\EntActivoFijoClase.vb" />
+    <Compile Include="Clases\Entidades\EntAnexoSAP.vb" />
+    <Compile Include="Clases\Entidades\EntFichero.vb" />
+    <Compile Include="Clases\Entidades\EntLlamadaServicio.vb" />
+    <Compile Include="Clases\Entidades\EntDocuware.vb" />
+    <Compile Include="Clases\Entidades\EntLlamadaServicioCola.vb" />
+    <Compile Include="Clases\Entidades\EntNormaReparto.vb" />
+    <Compile Include="Clases\Entidades\EntCuentaContable.vb" />
+    <Compile Include="Clases\Entidades\EntAsientoModelo.vb" />
+    <Compile Include="Clases\Entidades\EntAsientoIndicador.vb" />
+    <Compile Include="Clases\Entidades\EntAsientoOperacion.vb" />
+    <Compile Include="Clases\Entidades\EntDocumentoEstado.vb" />
+    <Compile Include="Clases\Entidades\EntIdioma.vb" />
+    <Compile Include="Clases\Entidades\EntOportunidadCab.vb" />
+    <Compile Include="Clases\Entidades\EntPrecioEntrega.vb" />
+    <Compile Include="Clases\Entidades\EntTarjetaEquipo.vb" />
+    <Compile Include="Clases\Entidades\EntAsientoCab.vb" />
+    <Compile Include="Clases\Entidades\EntAsiento.vb" />
+    <Compile Include="Clases\Entidades\EntAsientoCampo.vb" />
+    <Compile Include="Clases\Entidades\EntDocumentoExtendidoLin.vb" />
+    <Compile Include="Clases\Entidades\EntDocumentoExtendido.vb" />
+    <Compile Include="Clases\Entidades\EntAsientoLin.vb" />
+    <Compile Include="Clases\Entidades\EntDocumentoRelacionado.vb" />
+    <Compile Include="Clases\Entidades\EntAsientoTratado.vb" />
+    <Compile Include="Clases\Entidades\EntInterlocutorContacto.vb" />
+    <Compile Include="Clases\Entidades\EntInterlocutorDireccion.vb" />
+    <Compile Include="Clases\Entidades\EntOrigen.vb" />
+    <Compile Include="Clases\Entidades\EntDocumentoPorte.vb" />
+    <Compile Include="Clases\Entidades\EntPorte.vb" />
+    <Compile Include="Clases\Entidades\EntBancoPropio.vb" />
+    <Compile Include="Clases\Entidades\EntAlmacen.vb" />
+    <Compile Include="Clases\Entidades\EntCondicionPago.vb" />
+    <Compile Include="Clases\Entidades\EntDato.vb" />
+    <Compile Include="Clases\Entidades\EntCentroCosteRIC.vb" />
+    <Compile Include="Clases\Entidades\EntAcuerdoLin.vb" />
+    <Compile Include="Clases\Entidades\EntDocumentoLlamada.vb" />
+    <Compile Include="Clases\Entidades\EntDocumentoBloqueo.vb" />
+    <Compile Include="Clases\Entidades\EntDocumentoTratado.vb" />
+    <Compile Include="Clases\Entidades\EntEmpleadoDptoCV.vb" />
+    <Compile Include="Clases\Entidades\EntInterlocutorBanco.vb" />
+    <Compile Include="Clases\Entidades\EntResponsable.vb" />
+    <Compile Include="Clases\Entidades\EntInforme.vb" />
+    <Compile Include="Clases\Entidades\EntDocumentoCampo.vb" />
+    <Compile Include="Clases\Entidades\EntDocumentoCab.vb" />
+    <Compile Include="Clases\Entidades\EntDocumentoLin.vb" />
+    <Compile Include="Clases\Entidades\EntGrupoInterlocutor.vb" />
+    <Compile Include="Clases\Entidades\EntInterlocutorSAP.vb" />
+    <Compile Include="Clases\Entidades\EntInventarioCab.vb" />
+    <Compile Include="Clases\Entidades\EntInventarioLin.vb" />
+    <Compile Include="Clases\Entidades\EntLlamadaServicioEstado.vb" />
+    <Compile Include="Clases\Entidades\EntLlamadaServicioProblemaSubtipo.vb" />
+    <Compile Include="Clases\Entidades\EntLlamadaServicioProblemaTipo.vb" />
+    <Compile Include="Clases\Entidades\EntLlamadaServicioOrigen.vb" />
+    <Compile Include="Clases\Entidades\EntLlamadaServicioTipo.vb" />
+    <Compile Include="Clases\Entidades\EntActividadEmplazamiento.vb" />
+    <Compile Include="Clases\Entidades\EntActividadTipo.vb" />
+    <Compile Include="Clases\Entidades\EntActividadAsunto.vb" />
+    <Compile Include="Clases\Entidades\EntLlamadaServicioSAP.vb" />
+    <Compile Include="Clases\Entidades\EntActividadSAP.vb" />
+    <Compile Include="Clases\Entidades\EntAcuerdoCab.vb" />
+    <Compile Include="Clases\Entidades\EntArticuloSAP.vb" />
+    <Compile Include="Clases\Entidades\EntGrupoImpositivo.vb" />
+    <Compile Include="Clases\Entidades\EntCampoUsuario.vb" />
+    <Compile Include="Clases\Entidades\EntLoteSAP.vb" />
+    <Compile Include="Clases\Entidades\EntMoneda.vb" />
+    <Compile Include="Clases\Entidades\EntProyectoSAP.vb" />
+    <Compile Include="Clases\Entidades\EntFacturaAnticipo.vb" />
+    <Compile Include="Clases\Entidades\EntTasaCambio.vb" />
+    <Compile Include="Clases\Entidades\EntViaPago.vb" />
+    <Compile Include="Clases\Entidades\EntTarjetaBanco.vb" />
+    <Compile Include="Clases\Entidades\EntValorTabla.vb" />
+    <Compile Include="Clases\Entidades\EntValorValido.vb" />
+    <Compile Include="Clases\Entidades\EntFabricante.vb" />
+    <Compile Include="Clases\Entidades\EntClaseExpedicion.vb" />
+    <Compile Include="Clases\Entidades\EntGrupoUnidadMedida.vb" />
+    <Compile Include="Clases\Entidades\EntDocumentoLote.vb" />
+    <Compile Include="Clases\Entidades\EntCarta.vb" />
+    <Compile Include="Clases\Entidades\EntDocumento.vb" />
+    <Compile Include="Clases\Entidades\EntInterlocutor.vb" />
+    <Compile Include="Clases\Entidades\EntEmpleado.vb" />
+    <Compile Include="Clases\Entidades\EntArticulo.vb" />
+    <Compile Include="Clases\Entidades\EntCentroCoste.vb" />
+    <Compile Include="Clases\Entidades\EntGrupoArticulo.vb" />
+    <Compile Include="Clases\Entidades\EntSerie.vb" />
+    <Compile Include="Clases\Entidades\EntProyecto.vb" />
+    <Compile Include="Clases\Entidades\EntResultado.vb" />
+    <Compile Include="Clases\Entidades\EntSucursal.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Util\Utilidades.vb" />
+    <Compile Include="WSDocuware.asmx.vb">
+      <DependentUpon>WSDocuware.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Informes\InformeTest.rpt" />
+    <Content Include="Manual\DocuWare_Conector.docx" />
+    <Content Include="Manual\Docuware_Respuestas.xlsx" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>WSDocuware.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>WSDocuware.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>WSDocuware.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>WSDocuware.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>6574</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:6574/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+          <servers defaultServer="SelfHostServer">
+            <server name="SelfHostServer" exePath="" cmdArgs="" url="http://localhost:6574/" workingDir="" />
+          </servers>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

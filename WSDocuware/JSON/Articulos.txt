@@ -1,0 +1,11 @@
+'-------------------
+' TEST
+'-------------------
+
+Nuevo artículo
+{"NIFEmpresa":"ESB59806794","Opcion":"C","Serie":70,"Codigo":"A00005","Nombre":"Artículo 5","NombreExtranjero":"","Tipo":"0","Grupo":"100","GrupoUnidadMedida":"-1","CodigoBarras":"261295425586","Venta":"Y","Compra":"Y","Inventario":"Y","GeneralSujetoRetencion":"N","GeneralFabricante":"","GeneralClaseExpedicion":"","GeneralGestionarArticuloPorLotes":"N","GeneralRelevanteInstratat":"N","GeneralActivo":"S","CompraProveedorDefecto":"P00001","CompraNumeroCatalogoFabricante":"N2390G342","CompraUnidadMedida":"m","CompraArticulosUnidad":1000.0,"CompraUnidadMedidaEmbalaje":"m","CompraCantidadEmbalaje":1000.0,"CompraGrupoImpositivo":"S3","VentaUnidadMedida":"m","VentaArticulosUnidad":1.0,"VentaUnidadMedidaEmbalaje":"m","VentaCantidadEmbalaje":1.0,"VentaGrupoImpositivo":"R3","InventarioCuentasDeMayorPor":"0","InventarioUnidadMedida":"m","InventarioPeso":100.0,"InventarioGestionStockAlmacen":"N","Comentarios":"Prueba creación artículo","Colada":"C1","NumeroBobina":"N1","ArticuloOriginal":"A00001","ArticuloOrigenLetraUso":"A00001L","TipoMetal":"I","TipoAcero":"Inoxidable","AcabadoFabricacion":"Brillante","AcabadoSuperiorCara1":"Brillante","AcabadoSuperiorCara2":"Brillante","EspesorMilimetros":0.5,"Ancho":10.0,"LargoMilimetros":1000000.0,"Altura1Perfiles":0.25,"Altura2Perfiles":0.25,"Calidad":"Extra","DiametroInterior":2.0,"DiametroExterior":10.0,"MetrosLinealesBobina":1000.0,"RollosPaletArticuloOriginal":25.0,"ArticuloRecubrimiento":"A00002","CarasRecubrimiento":"0","CapasPlasticoNecesarias":"0","Papel":"N","Nucleo":"N","CodigoTransformacion":"CT012","ArticuloPropiedadCliente":"A00001","ClientePropietarioMaterial":"C00001","CodigoArticuloCliente":"A00001","CalcularDescripcion":"N","UserDW":"docuware","PassDW":"dw@2019"}
+
+
+Activo fijo
+{"NIFEmpresa":"ESB59806794","Opcion":"C","Serie":0,"Codigo":"21300000681","Nombre":"MINERAL","Tipo":"3","Grupo":"107","Venta":"N","Compra":"Y","Inventario":"N","ActivoFijoClase":"C01","ActivoFijoGrupo":"01-1","ActivoFijoGrupoAmortizacion":"MAQ","ActivoFijoEmplazamiento":1,"ActivoFijoFechaCapitalizacion":20240404,"ActivoFijoFechaInicio":20240404,"ActivoFijoAreaValoracion":"DEP_CONTABLE","UserDW":"docuware","PassDW":"dw@2019"}
+

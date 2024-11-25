@@ -1,0 +1,10 @@
+'-------------------
+' TEST
+'-------------------
+
+Actualizar lote
+{"NIFEmpresa":"ESB59806794","Ambito":"","NIFTercero":"","RazonSocial":"","ObjTypeOrigen":0,"RefOrigen":"","TipoRefOrigen":"","Articulo":"A00003","NumLote":"20220225","UserDW":"docuware","PassDW":"dw@2019","CamposUsuario":[{"Campo":"Calidad",Valor:"C1"},{"Campo":"Carbono",Valor:"0.1"},{"Campo":"Silicio",Valor:"0.2"},{"Campo":"Manganeso",Valor:"0.3"},{"Campo":"Fosforo",Valor:"0.4"},{"Campo":"Azufre",Valor:"0.5"},{"Campo":"Cromo",Valor:"0.6"},{"Campo":"Niquel",Valor:"0.7"},{"Campo":"Molibdeno",Valor:"0.8"},{"Campo":"Titanio",Valor:"0.9"},{"Campo":"Nitrogeno",Valor:"1.0"},{"Campo":"Niobio",Valor:"1.1"},{"Campo":"LimiteElastico02",Valor:"1.2"},{"Campo":"LimiteElastico1",Valor:"1.3"},{"Campo":"ResistenciaTraccion",Valor:"1.4"},{"Campo":"Elongacion",Valor:"1.5"},{"Campo":"Dureza",Valor:"1.6"}]}
+
+{"NIFEmpresa":"ESB59806794","Ambito":"C","NIFTercero":"ES11111111","RazonSocial":"Proveedor 1","ObjTypeOrigen":20,"RefOrigen":"5","TipoRefOrigen":"DocNum","Articulo":"","NumLote":"20220425","UserDW":"docuware","PassDW":"dw@2019","CamposUsuario":[{"Campo":"Calidad",Valor:"C2"},{"Campo":"Carbono",Valor:"1.1"},{"Campo":"Silicio",Valor:"1.2"},{"Campo":"Manganeso",Valor:"1.3"},{"Campo":"Fosforo",Valor:"1.4"},{"Campo":"Azufre",Valor:"1.5"},{"Campo":"Cromo",Valor:"1.6"},{"Campo":"Niquel",Valor:"1.7"},{"Campo":"Molibdeno",Valor:"1.8"},{"Campo":"Titanio",Valor:"1.9"},{"Campo":"Nitrogeno",Valor:"2.0"},{"Campo":"Niobio",Valor:"2.1"},{"Campo":"LimiteElastico02",Valor:"2.2"},{"Campo":"LimiteElastico1",Valor:"2.3"},{"Campo":"ResistenciaTraccion",Valor:"2.4"},{"Campo":"Elongacion",Valor:"2.5"},{"Campo":"Dureza",Valor:"2.6"}]}
+																																																																																																								
+

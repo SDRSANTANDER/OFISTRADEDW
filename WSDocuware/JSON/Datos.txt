@@ -1,0 +1,30 @@
+'-------------------
+' TEST
+'-------------------
+
+NIFEmpresa --> ESB59806794
+
+
+DOCUMENTOS
+
+{"NIFEmpresa":"ESB59806794","PeticionTipo":40,"InterlocutorTipo":"S","Ambito":"C","NIFTercero":"ES11111111A","RazonSocial":"Proveedor 1","FechaInicio":20200101,"FechaFin":20230101,"ObjType":18,"DOCIDDW":"100","DocNum":"","NumAtCard":"","UserDW":"docuware","PassDW":"dw@2019"}
+
+
+{"DOCIDDW":"","ObjType":13,"ObjTypeOrigen":15,"Ambito":"V","NIFEmpresa":"ESB59806794","NIFTercero":"ES11223344G","RazonSocial":"CLIENTE 1","DocNum":"","NumAtCard":"","UserDW":"docuware","PassDW":"dw@2019","CampoTipo":17,"DocDueDate":0,"CampoUsuario":"U_SEIIDDW","NumEnvio":"002"}
+
+
+{"DOCIDDW":"","ObjType":18,"ObjTypeOrigen":0,"Ambito":"C","NIFEmpresa":"ESB59806794","NIFTercero":"ES99999","RazonSocial":"SEIDOR DUA","DocNum":"60","NumAtCard":"23ES00111122223333","UserDW":"docuware","PassDW":"dw@2019","CampoTipo":13,"DocDueDate":0,"CampoUsuario":"U_SEIIDDW","NumEnvio":"","Nivel":0}
+
+
+{"DOCIDDW":"","ObjType":18,"ObjTypeOrigen":0,"Ambito":"C","NIFEmpresa":"ESB59806794","NIFTercero":"ES99999","RazonSocial":"SEIDOR DUA","DocNum":"60","NumAtCard":"23ES00111122223333","UserDW":"docuware","PassDW":"dw@2019","CampoTipo":13,"DocDueDate":0,"CampoUsuario":"U_SUBTGASTO","NumEnvio":"","Nivel":1}
+
+
+ASIENTOS
+
+{"NIFEmpresa":"ESB59806794","CampoTipo":1,"ObjType":30,"DOCIDDW":"1001","TransNum":"142","Ref1":"20230930-R1","Ref2":"20230930-R2","Ref3":"20230930-R3","CampoUsuario":"U_SEIIDDW","UserDW":"docuware","PassDW":"dw@2019"}
+
+
+
+
+
+

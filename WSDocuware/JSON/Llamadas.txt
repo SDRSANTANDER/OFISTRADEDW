@@ -1,0 +1,12 @@
+'-------------------
+' TEST
+'-------------------
+
+NIFEmpresa --> ESB59806794
+
+
+'Nueva llamada
+{"DOCIDDW":100,"DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V100","NIFEmpresa":"ESB59806794","Ambito":"V","Opcion":"C","NIFTercero":"ES11223344G","RazonSocial":"CLIENTE 1","Serie":0,"Numero":0,"Estado":-3,"Prioridad":2,"PersonaContacto":0,"Telefono":"942526396","NumAtCard":"SC100","NumeroSerieFabricante":"","NumeroSerieFabricante":"","ItemCode":"A00001","Asunto":"Prueba creación llamada","Origen":-3,"ProblemaTipo":1,"ProblemaSubtipo":1,"LlamadaTipo":1,"Tecnico":1,"TratadoPor":1,"Resolucion":"No hay","UserDW":"docuware","PassDW":"dw@2019"}
+
+'Actualizar llamada
+{"DOCIDDW":100,"DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V100","NIFEmpresa":"ESB59806794","Ambito":"V","Opcion":"U","NIFTercero":"ES11223344G","RazonSocial":"CLIENTE 1","Serie":0,"Numero":3,"Estado":-3,"Prioridad":2,"PersonaContacto":0,"Telefono":"942526396","NumAtCard":"SC100","NumeroSerieFabricante":"","NumeroSerieFabricante":"","ItemCode":"A00001","Asunto":"Prueba actualización llamada","Origen":-3,"ProblemaTipo":1,"ProblemaSubtipo":1,"LlamadaTipo":1,"Tecnico":1,"TratadoPor":1,"Resolucion":"No hay","UserDW":"docuware","PassDW":"dw@2019"}

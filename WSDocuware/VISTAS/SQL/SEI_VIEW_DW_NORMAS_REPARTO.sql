@@ -1,0 +1,18 @@
+CREATE VIEW SEI_VIEW_DW_NORMAS_REPARTO AS 
+SELECT
+COALESCE(T0."OcrCode",'') As ID,
+COALESCE(T0."OcrName", '') As NOMBRE,
+COALESCE(T0."DimCode",	-1) As DIMENSION,
+COALESCE(T0."OcrTotal",	0) As TOTAL
+FROM OOCR T0 WITH(NOLOCK)
+JOIN OCR1 T1 WITH(NOLOCK) ON T1."OcrCode"=T0."OcrCode"
+WHERE 1=1 
+And T0."Locked"='N' 
+And T0."Active"='Y' 
+And COALESCE(T1."ValidFrom",GETDATE())<=GETDATE() 
+And COALESCE(T1."ValidTo",GETDATE())>=GETDATE()
+GROUP BY 
+T0."OcrCode",
+T0."OcrName",
+T0."DimCode",
+T0."OcrTotal"

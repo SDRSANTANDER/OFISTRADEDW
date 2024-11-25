@@ -1,0 +1,13 @@
+'-------------------
+' TEST
+'-------------------
+
+NIFEmpresa --> ESB59806794
+
+
+'Nueva actividad
+{"DOCIDDW":100,"DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V100","NIFEmpresa":"ESB59806794","Ambito":"C","Opcion":"C","NIFTercero":"ES11111111","RazonSocial":"Proveedor 1","Actividad":0,"Numero":0,"Tipo":0,"Asunto":0,"AsignadoAUsuario":0,"AsignadoAEmpleado":2,"PersonaContacto":0,"Telefono":"942526396","Comentarios":"Prueba creación actividad","FechaHoraInicio":20220810095300,"FechaHoraFin":20220810190800,"Prioridad":1,"Emplazamiento":0,"Contenido":"Prueba creación actividad","Cerrar":"N","UserDW":"docuware","PassDW":"dw@2019"}
+
+'Actualizar actividad
+{"DOCIDDW":100,"DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V100","NIFEmpresa":"ESB59806794","Ambito":"C","Opcion":"U","NIFTercero":"ES11111111","RazonSocial":"Proveedor 1","Actividad":0,"Numero":4,"Tipo":0,"Asunto":0,"AsignadoAUsuario":0,"AsignadoAEmpleado":2,"PersonaContacto":0,"Telefono":"942526396","Comentarios":"Prueba actualización actividad","FechaHoraInicio":20220810095300,"FechaHoraFin":20220810190800,"Prioridad":1,"Emplazamiento":0,"Contenido":"Prueba actualización actividad","Cerrar":"N","UserDW":"docuware","PassDW":"dw@2019"}
+

@@ -1,0 +1,17 @@
+'-------------------
+' TEST
+'-------------------
+
+NIFEmpresa --> ESB59806794
+
+
+Nuevo asiento
+{"DOCIDDW":1001,"DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V1/1001","NIFEmpresa":"ESB59806794","Opcion":"C","Serie":0,"DocDate":20230930,"DocDateAux":20230930,"AccountDate":20230930,"DocDueDate":20230930,"Ref1":"20230930-R1","Ref2":"20230930-R2","Ref3":"20230930-R3","Proyecto":"PR01","Comments":"Prueba nuevo asiento","Modelo":"","Indicador":"I1","Factura":"F1","Operacion":"OP1","ObjTypeDestino":30,"ObjTypeOrigen":0,"RefOrigen":"2101006","TipoRefOrigen":"TransNum","Currency":"EUR","DocTotal":1500.00,"UserDW":"docuware","PassDW":"dw@2019","Lineas":[{"CuentaContable":"100000","ShortName":"","LineTotal":1500.0,"LineTipo":"D","VATGroup":"","LineMemo":"Detalle linea debe"},{"CuentaContable":"500000","ShortName":"","LineTotal":1000.0,"LineTipo":"H","VATGroup":"","LineMemo":"Detalle linea haber"},{"CuentaContable":"600000","ShortName":"","LineTotal":500.0,"LineTipo":"H","VATGroup":"","LineMemo":"Detalle linea haber"}]}
+
+
+Actualizar asiento
+{"DOCIDDW":1001,"DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V1/1001","NIFEmpresa":"ESB59806794","Opcion":"U","Serie":0,"DocDate":20230930,"DocDateAux":20230930,"AccountDate":20230930,"DocDueDate":20230930,"Ref1":"20230930-R1","Ref2":"20230930-R2","Ref3":"20230930-R3","Proyecto":"PR01","Comments":"Prueba nuevo asiento","Modelo":"","Indicador":"I1","Factura":"F1","Operacion":"OP1","ObjTypeDestino":30,"ObjTypeOrigen":0,"RefOrigen":"142","TipoRefOrigen":"TransNum","Currency":"EUR","DocTotal":1500.00,"UserDW":"docuware","PassDW":"dw@2019","Lineas":[{"CuentaContable":"100000","ShortName":"","LineTotal":1500.0,"LineTipo":"D","VATGroup":"","LineMemo":"Detalle linea debe"},{"CuentaContable":"500000","ShortName":"","LineTotal":1000.0,"LineTipo":"H","VATGroup":"","LineMemo":"Detalle linea haber"},{"CuentaContable":"600000","ShortName":"","LineTotal":500.0,"LineTipo":"H","VATGroup":"","LineMemo":"Detalle linea haber"}]}
+
+
+Tratado
+{"NIFEmpresa":"ESB59806794","ObjType":30,"DOCIDDW":"1001","TransNum":"142","Ref1":"20230930-R1","Ref2":"20230930-R2","Ref3":"20230930-R3","UserDW":"docuware","PassDW":"dw@2019"}

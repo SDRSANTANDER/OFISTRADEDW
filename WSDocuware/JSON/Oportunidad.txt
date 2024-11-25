@@ -1,0 +1,15 @@
+'-------------------
+' TEST
+'-------------------
+
+NIFEmpresa --> ESB59806794
+
+
+'Nueva oportunidad
+{"DOCIDDW":100,"DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V100","NIFEmpresa":"ESB59806794","Opcion":"C","ObjTypeDestino":97,"Ambito":"C","NIFTercero":"ES11111111","RazonSocial":"Proveedor 1","Numero":0,"Nombre":"Nueva oportunidad","FechaInicio":20231201,"FechaCierrePrevista":20231231,"ImportePotencial":5000.0,"PersonaContacto":-1,"EmpDptoCompraVenta":-1,"UserDW":"docuware","PassDW":"dw@2019"}
+
+
+
+'Actualizar oportunidad
+{"DOCIDDW":100,"DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V100","NIFEmpresa":"ESB59806794","Opcion":"U","ObjTypeDestino":97,"Ambito":"C","NIFTercero":"ES11111111","RazonSocial":"Proveedor 1","Numero":4,"Nombre":"Actualizar oportunidad","FechaInicio":20231101,"FechaCierrePrevista":20231215,"ImportePotencial":4500.0,"PersonaContacto":-1,"EmpDptoCompraVenta":-1,"UserDW":"docuware","PassDW":"dw@2019"}
+

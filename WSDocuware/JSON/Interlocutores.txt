@@ -1,0 +1,7 @@
+'-------------------
+' TEST
+'-------------------
+
+Nuevo interlocutor
+{"NIFEmpresa":"ESB59806794","Opcion":"0","Serie":0,"Codigo":"C00003","Nombre":"CLIENTE 3","NombreExtranjero":"","Tipo":"C","Grupo":"100","Moneda":"EUR","NIFTercero":"ES34563456A","Telefono":"942636363","Mail":"pruebas@seidor.es","Comentarios":"Esto es una prueba","Activo":"S","UserDW":"docuware","PassDW":"dw@2019"}
+

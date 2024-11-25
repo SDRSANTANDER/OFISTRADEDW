@@ -1,0 +1,20 @@
+CREATE VIEW SEI_VIEW_DW_PROYECTOS AS
+SELECT
+COALESCE(T0."PrjCode",'') As ID,
+COALESCE(T0."PrjName",'') As NOMBRE,
+'' As CENTROCOSTE,
+'' As RESPONSABLEID,
+'' As RESPONSABLENOMBRE,
+'' As RESPONSABLEMAIL,
+'' As GENERICO1,
+'' As GENERICO2,
+'' As GENERICO3,
+'' As GENERICO4,
+'' As GENERICO5
+FROM OPRJ T0 WITH(NOLOCK)
+WHERE 1=1 
+And T0."Locked"<>'Y' 
+And T0."Active"='Y'
+--And COALESCE(T0."ValidFrom",Cast(GETDATE() as date))<=Cast(GETDATE() as date)
+--And COALESCE(T0."ValidTo",Cast(GETDATE() as date))>=Cast(GETDATE() as date)
+

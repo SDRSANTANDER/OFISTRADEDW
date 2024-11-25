@@ -1,0 +1,26 @@
+'-------------------
+' TEST
+'-------------------
+
+NIFEmpresa --> ESB59806794
+
+
+'Nuevo acuerdo artículo
+{"DOCIDDW":100,"DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V100","NIFEmpresa":"ESB59806794","Opcion":"C","ObjTypeDestino":1250000025,"Ambito":"C","NIFTercero":"ES11111111","RazonSocial":"Proveedor 1","Numero":0,"NumAtCard":"N013","Proyecto":"PR01","Tipo":0,"Metodo":0,"Status":2,"NumAtCard":"N024","FechaInicio":20220801,"FechaFin":20221231,"FechaFirma":20220801,"Descripcion":"Creacion acuerdo agosto-diciembre","Comments":"Prueba creacion acuerdo","UserDW":"docuware","PassDW":"dw@2019","Lineas":[{"LineNum":0,"Articulo":"A00001","Concepto":"","Cantidad":12.0,"PrecioUnidad":23.0,"Moneda":"","PorcentajeDescuento":10.0,"ImportePlanificado":5600.0,"Proyecto":"PR01","Comentarios":"Articulo 1","PorcentajeDevolucion":10.0,"FechaGarantia":20221231},{"LineNum":1,"Articulo":"A00002","Concepto":"","Cantidad":3.0,"PrecioUnidad":45.0,"Moneda":"","PorcentajeDescuento":10.0,"ImportePlanificado":300.0,"Proyecto":"PR02","Comentarios":"Articulo 2","PorcentajeDevolucion":10.0,"FechaGarantia":20221231}]}
+
+'Nuevo acuerdo monetario
+{"DOCIDDW":100,"DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V100","NIFEmpresa":"ESB59806794","Opcion":"C","ObjTypeDestino":1250000025,"Ambito":"C","NIFTercero":"ES11111111","RazonSocial":"Proveedor 1","Numero":0,"NumAtCard":"N013","Proyecto":"PR01","Tipo":0,"Metodo":1,"Status":2,"NumAtCard":"N013","FechaInicio":20220801,"FechaFin":20221231,"FechaFirma":20220801,"Descripcion":"Creacion acuerdo agosto-diciembre","Comments":"Prueba creacion acuerdo","UserDW":"docuware","PassDW":"dw@2019","Lineas":[{"LineNum":0,"Articulo":"P00001","Concepto":"","Cantidad":12.0,"PrecioUnidad":23.0,"Moneda":"","PorcentajeDescuento":10.0,"ImportePlanificado":5600.0,"Proyecto":"PR01","Comentarios":"Articulo 1","PorcentajeDevolucion":10.0,"FechaGarantia":20221231}]}
+
+
+
+'Actualizar acuerdo artículo
+{"DOCIDDW":100,"DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V100","NIFEmpresa":"ESB59806794","Opcion":"U","ObjTypeDestino":1250000025,"Ambito":"C","NIFTercero":"ES11111111","RazonSocial":"Proveedor 1","Numero":11,"NumAtCard":"N013","Proyecto":"PR01","Tipo":0,"Metodo":0,"Status":2,"NumAtCard":"N024","FechaInicio":20220801,"FechaFin":20221231,"FechaFirma":20220801,"Descripcion":"Creacion acuerdo agosto-diciembre","Comments":"Prueba creacion acuerdo","UserDW":"docuware","PassDW":"dw@2019","Lineas":[{"LineNum":0,"Articulo":"A00001","Concepto":"","Cantidad":12.0,"PrecioUnidad":23.0,"Moneda":"","PorcentajeDescuento":10.0,"ImportePlanificado":5600.0,"Proyecto":"PR01","Comentarios":"Articulo 1","PorcentajeDevolucion":10.0,"FechaGarantia":20231231},{"LineNum":1,"Articulo":"A00002","Concepto":"","Cantidad":3.0,"PrecioUnidad":45.0,"Moneda":"","PorcentajeDescuento":10.0,"ImportePlanificado":300.0,"Proyecto":"PR02","Comentarios":"Articulo 2","PorcentajeDevolucion":10.0,"FechaGarantia":20221231}]}
+
+'Actualizar acuerdo monetario
+{"DOCIDDW":100,"DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V100","NIFEmpresa":"ESB59806794","Opcion":"U","ObjTypeDestino":1250000025,"Ambito":"C","NIFTercero":"ES11111111","RazonSocial":"Proveedor 1","Numero":12,"NumAtCard":"N013","Proyecto":"PR01","Tipo":0,"Metodo":1,"Status":2,"NumAtCard":"N013","FechaInicio":20220801,"FechaFin":20221231,"FechaFirma":20220801,"Descripcion":"Creacion acuerdo agosto-diciembre","Comments":"Prueba creacion acuerdo","UserDW":"docuware","PassDW":"dw@2019","Lineas":[{"LineNum":0,"Articulo":"P00001","Concepto":"","Cantidad":12.0,"PrecioUnidad":23.0,"Moneda":"","PorcentajeDescuento":10.0,"ImportePlanificado":5600.0,"Proyecto":"PR01","Comentarios":"Articulo 1","PorcentajeDevolucion":10.0,"FechaGarantia":20231231}]}
+
+
+
+'Actualizar estado
+{"DOCIDDW":100,"DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V100","DOCESTADODW":2,"DOCMOTIVODW":"Prueba","NIFEmpresa":"ESB59806794","ObjTypeDestino":1250000025,"Ambito":"C","NIFTercero":"ES11111111","RazonSocial":"Proveedor 1","Numero":12,"NumAtCard":"N013","Proyecto":"PR01","Tipo":0,"Metodo":1,"Status":2,"NumAtCard":"N013","UserDW":"docuware","PassDW":"dw@2019"}
+

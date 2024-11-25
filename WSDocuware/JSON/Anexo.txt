@@ -1,0 +1,9 @@
+'-------------------
+' TEST
+'-------------------
+
+NIFEmpresa --> ESB59806794
+
+
+{"NIFEmpresa":"ESB59806794","InterlocutorTipo":"S","Ambito":"C","NIFTercero":"ES11111111A","RazonSocial":"Proveedor 1","ObjType":18,"DOCIDDW":"24","DocNum":"72","NumAtCard":"24ES0000112233445566","Nombre":"DUA.pdf","Base64":"xyz","UserDW":"docuware","PassDW":"dw@2019"}
+

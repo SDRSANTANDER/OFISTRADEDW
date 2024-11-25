@@ -1,0 +1,104 @@
+'-------------------
+' TEST
+'-------------------
+
+NIFEmpresa --> ESB59806794
+
+
+Solicitud de pedido 
+{"NIFEmpresa":"ESB59806794","Ambito":"C","NIFTercero":"","RazonSocial":"","ObjType":1470000113,"RefOrigen":"1","TipoRefOrigen":"DocNum","DOCIDDW":"1001","DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V1/1001","UserDW":"docuware","PassDW":"dw@2019"}
+
+
+Pedido de compra 
+{"NIFEmpresa":"ESB59806794","Ambito":"C","NIFTercero":"ES11111111","RazonSocial":"Proveedor 1","ObjType":22,"RefOrigen":"1","TipoRefOrigen":"DocNum","DOCIDDW":"1002","DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V1/1002","UserDW":"docuware","PassDW":"dw@2019"}
+
+
+Albaran de compra
+{"NIFEmpresa":"ESB59806794","Ambito":"C","NIFTercero":"ES11111111","RazonSocial":"Proveedor 1","ObjType":20,"RefOrigen":"1","TipoRefOrigen":"DocNum","DOCIDDW":"1003","DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V1/1003","UserDW":"docuware","PassDW":"dw@2019"}
+
+
+Precio entrega compra
+{"NIFEmpresa":"ESB59806794","Ambito":"C","NIFTercero":"ES11111111","RazonSocial":"Proveedor 1","ObjType":69,"RefOrigen":"1","TipoRefOrigen":"DocNum","DOCIDDW":"1004","DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V1/1004","UserDW":"docuware","PassDW":"dw@2019"}
+
+
+Factura de compra
+{"NIFEmpresa":"ESB59806794","Ambito":"C","NIFTercero":"ES11111111","RazonSocial":"Proveedor 1","ObjType":18,"RefOrigen":"1","TipoRefOrigen":"DocNum","DOCIDDW":"1005","DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V1/1005","UserDW":"docuware","PassDW":"dw@2019"}
+
+
+
+
+
+Oportunidad de venta 
+{"NIFEmpresa":"ESB59806794","Ambito":"V","NIFTercero":"ES11223344G","RazonSocial":"CLIENTE 1","ObjType":97,"RefOrigen":"2","TipoRefOrigen":"DocNum","DOCIDDW":"1006","DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V1/1006","UserDW":"docuware","PassDW":"dw@2019"}
+
+
+Oferta de venta
+{"NIFEmpresa":"ESB59806794","Ambito":"V","NIFTercero":"ES11223344G","RazonSocial":"CLIENTE 1","ObjType":23,"RefOrigen":"1","TipoRefOrigen":"DocNum","DOCIDDW":"1007","DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V1/1007","UserDW":"docuware","PassDW":"dw@2019"}
+
+
+Pedido de venta 
+{"NIFEmpresa":"ESB59806794","Ambito":"V","NIFTercero":"ES11223344G","RazonSocial":"CLIENTE 1","ObjType":17,"RefOrigen":"1","TipoRefOrigen":"DocNum","DOCIDDW":"1008","DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V1/1008","UserDW":"docuware","PassDW":"dw@2019"}
+
+
+Albaran de venta
+{"NIFEmpresa":"ESB59806794","Ambito":"V","NIFTercero":"ES11223344G","RazonSocial":"CLIENTE 1","ObjType":15,"RefOrigen":"1","TipoRefOrigen":"DocNum","DOCIDDW":"1009","DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V1/1009","UserDW":"docuware","PassDW":"dw@2019"}
+
+
+Factura de venta
+{"NIFEmpresa":"ESB59806794","Ambito":"V","NIFTercero":"ES11223344G","RazonSocial":"CLIENTE 1","ObjType":13,"RefOrigen":"1","TipoRefOrigen":"DocNum","DOCIDDW":"1010","DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V1/1010","UserDW":"docuware","PassDW":"dw@2019"}
+
+
+
+
+Orden de fabricacion
+{"NIFEmpresa":"ESB59806794","Ambito":"C","NIFTercero":"","RazonSocial":"","ObjType":202,"RefOrigen":"1","TipoRefOrigen":"DocNum","DOCIDDW":"1011","DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V1/1011","UserDW":"docuware","PassDW":"dw@2019"}
+
+
+
+
+Llamada de servicio
+{"NIFEmpresa":"ESB59806794","Ambito":"C","NIFTercero":"ES11111111","RazonSocial":"Proveedor 1","ObjType":191,"RefOrigen":"4","TipoRefOrigen":"DocNum","DOCIDDW":"1012","DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V1/1012","UserDW":"docuware","PassDW":"dw@2019"}
+
+
+
+Actividad
+{"NIFEmpresa":"ESB59806794","Ambito":"V","NIFTercero":"ES11223344G","RazonSocial":"CLIENTE 1","ObjType":33,"RefOrigen":"1","TipoRefOrigen":"DocNum","DOCIDDW":"1013","DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V1/1013","UserDW":"docuware","PassDW":"dw@2019"}
+
+
+
+
+Acuerdo global
+{"NIFEmpresa":"ESB59806794","Ambito":"C","NIFTercero":"ES11111111","RazonSocial":"Proveedor 1","ObjType":1250000025,"RefOrigen":"4","TipoRefOrigen":"DocNum","DOCIDDW":"1014","DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V1/1014","UserDW":"docuware","PassDW":"dw@2019"}
+
+
+
+
+Asiento
+{"NIFEmpresa":"ESB59806794","Ambito":"C","NIFTercero":"ES11111111","RazonSocial":"Proveedor 1","ObjType":30,"RefOrigen":"1","TipoRefOrigen":"DocNum","DOCIDDW":"1015","DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V1/1015","UserDW":"docuware","PassDW":"dw@2019"}
+
+
+
+Entrada mercancías
+{"NIFEmpresa":"ESB59806794","Ambito":"","NIFTercero":"","RazonSocial":"","ObjType":59,"RefOrigen":"1","TipoRefOrigen":"DocNum","DOCIDDW":"1016","DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V1/1016","UserDW":"docuware","PassDW":"dw@2019"}
+
+
+
+Salida mercancías
+{"NIFEmpresa":"ESB59806794","Ambito":"","NIFTercero":"","RazonSocial":"","ObjType":60,"RefOrigen":"1","TipoRefOrigen":"DocNum","DOCIDDW":"1017","DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V1/1017","UserDW":"docuware","PassDW":"dw@2019"}
+
+
+
+Traslado
+{"NIFEmpresa":"ESB59806794","Ambito":"","NIFTercero":"","RazonSocial":"","ObjType":67,"RefOrigen":"1","TipoRefOrigen":"DocNum","DOCIDDW":"1018","DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V1/1018","UserDW":"docuware","PassDW":"dw@2019"}
+
+
+
+Cobro
+{"NIFEmpresa":"ESB59806794","Ambito":"","NIFTercero":"","RazonSocial":"","ObjType":24,"RefOrigen":"1","TipoRefOrigen":"DocNum","DOCIDDW":"1019","DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V1/1019","UserDW":"docuware","PassDW":"dw@2019"}
+
+
+
+Pago
+{"NIFEmpresa":"ESB59806794","Ambito":"","NIFTercero":"","RazonSocial":"","ObjType":46,"RefOrigen":"1","TipoRefOrigen":"DocNum","DOCIDDW":"1020","DOCURLDW":"https://SOCIEDAD1.docuware.cloud/V1/1020","UserDW":"docuware","PassDW":"dw@2019"}
+
+

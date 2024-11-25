@@ -1,0 +1,9 @@
+'-------------------
+' TEST
+'-------------------
+
+NIFEmpresa --> ESB59806794
+
+
+{"NIFEmpresa":"ESB59806794","ObjType":18,"DOCIDDW":"100","DocNum":"","NumAtCard":"","BloqueoPago":"0","UserSAP":"manager","PassSAP":"Seidor@19","UserDW":"docuware","PassDW":"dw@2019"}
+
