@@ -531,3 +531,21 @@
 2024-10-10 15:37:45,914 Hilo:[33] INFO  (CAMPO USUARIO - SOCIEDAD1) Comprobar campo usuario para ObjType:  18, Ambito: C, NIFTercero: ES99999, Razón social: SEIDOR DUA, DOCIDDW: , DocNum: 60, NumAtCard: 23ES00111122223333
 2024-10-10 15:37:45,914 Hilo:[33] INFO  (CAMPO USUARIO) Encontrada tabla: OPCH
 2024-10-10 15:37:47,005 Hilo:[33] INFO  Ok - Campo de usuario encontrado - 01
+2024-11-25 17:50:07,750 Hilo:[6] INFO  Test SQL/HANA - NIF ESA58086216
+2024-11-25 17:50:08,117 Hilo:[6] FATAL ERROR [HY000] [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;10 authentication failed
+ERROR [HY000] [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;10 authentication failed en AbrirConexionODBC
+2024-11-25 17:50:08,242 Hilo:[6] FATAL Imposible abrir conexion en AbrirConexion
+2024-11-25 17:50:08,361 Hilo:[6] INFO  Ko - Imposible abrir conexion - 
+2024-11-25 17:50:16,472 Hilo:[8] INFO  Test SAP - NIF ESA58086216
+2024-11-25 17:50:17,216 Hilo:[8] FATAL El estado en connect es -111:Unable to access SBO-Common database en loginSAP
+2024-11-25 17:50:17,362 Hilo:[8] FATAL Imposible conectar con SAP en getCompany
+2024-11-25 17:50:17,476 Hilo:[8] INFO  Ko - Imposible conectar con SAP - 
+2024-11-25 18:01:54,742 Hilo:[6] INFO  Test SQL/HANA - NIF ESA58086216
+2024-11-25 18:01:55,035 Hilo:[6] FATAL ERROR [HY000] [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;10 authentication failed
+ERROR [HY000] [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;10 authentication failed en AbrirConexionODBC
+2024-11-25 18:01:55,161 Hilo:[6] FATAL Imposible abrir conexion en AbrirConexion
+2024-11-25 18:01:55,283 Hilo:[6] INFO  Ko - Imposible abrir conexion - 
+2024-11-25 18:05:06,114 Hilo:[5] INFO  Test SQL/HANA - NIF ESA58086216
+2024-11-25 18:05:06,269 Hilo:[5] INFO  Ok - Conexión SQL/HANA correcta - NIF ESA58086216 - 
+2024-11-25 18:05:15,198 Hilo:[7] INFO  Test SAP - NIF ESA58086216
+2024-11-25 18:05:21,750 Hilo:[7] INFO  Ok - Conexión SAP correcta - NIF ESA58086216 - 
